@@ -57,7 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\body.css" />
+    <Content Include="css\Login\body.css" />
+    <Content Include="Images\contenedor.fw.png" />
+    <Content Include="Images\contenedor2.fw.png" />
     <Content Include="Images\fond.JPG" />
     <Content Include="inicio.aspx" />
     <Content Include="Login\Login.aspx" />
