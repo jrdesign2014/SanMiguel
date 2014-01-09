@@ -2,27 +2,61 @@
     background-image: url(../../Images/fond.JPG);
 }
 
-.contenedor{
-   background-image: url(../../Images/contenedor2.fw.png);
-    width:500px;
-    height:300px;
-    position:relative;
-    margin:15% auto auto auto;
+.contenedor {
+    background-image: url(../../Images/contenedor2.fw.png);
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 15% auto auto auto;
+    z-index: 1;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 0px;
+    border: solid 2px #999999;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #999999;
+    /* Otros estilos */
+    /*border:1px solid #333;*/
+}
 
--moz-border-radius-topleft:0px;
--moz-border-radius-topright:15px;
--moz-border-radius-bottomleft:15px;
--moz-border-radius-bottomright:0px;
+.contenedor2 {
+    background-image: url("../../Images/contenedor2.fw.png");
+    border: 2px solid #999999;
+    border-radius: 0px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #999999;
+    height: 300px;
+    margin: -46% 60% 0;
+    position: relative;
+    width: 200px;
+    z-index: 2;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 0px;
+    /* Otros estilos */
+    /*border:1px solid #333;*/
+}
 
--webkit-border-top-left-radius:0px;
--webkit-border-top-right-radius:15px;
--webkit-border-bottom-left-radius:15px;
--webkit-border-bottom-right-radius:0px;
-
-border: solid 2px #999999;
-border-radius: 15px 0px 15px 0px;
-box-shadow: 2px 2px 5px #999999;
-
-/* Otros estilos */ 
-/*border:1px solid #333;*/
+.cajasTexto {
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border: solid 2px #999999;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 5px #999999;
+    margin-bottom: 0px;
 }
